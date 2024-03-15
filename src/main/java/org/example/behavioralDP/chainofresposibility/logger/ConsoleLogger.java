@@ -1,10 +1,12 @@
-package org.example.behavioralDP.logger;
+package org.example.behavioralDP.chainofresposibility.logger;
 
-public class DataBaseLogger extends LoggerHandler{
-    protected DataBaseLogger(LogLevel logLevel) {
+public class ConsoleLogger extends LoggerHandler{
+
+    public ConsoleLogger(LogLevel logLevel) {
         super(logLevel);
     }
-/*    @Override
+
+  /*  @Override
     public void log(LogLevel logLevel, String message) {
         if(super.logLevel.ordinal() <= logLevel.ordinal()){
             writeMessage(message);
@@ -15,6 +17,6 @@ public class DataBaseLogger extends LoggerHandler{
     }*/
     @Override
     public void writeMessage(String message) {
-        System.out.println("Log save in data Base....");
+        System.out.println( "Log in console.." + message);
     }
 }

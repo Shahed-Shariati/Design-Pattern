@@ -1,4 +1,4 @@
-package org.example.behavioralDP.logger;
+package org.example.behavioralDP.chainofresposibility.logger;
 
 public class MainApp {
     public static void main(String[] args) {

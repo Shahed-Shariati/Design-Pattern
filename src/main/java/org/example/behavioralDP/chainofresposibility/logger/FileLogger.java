@@ -1,4 +1,4 @@
-package org.example.behavioralDP.logger;
+package org.example.behavioralDP.chainofresposibility.logger;
 
 import java.io.FileWriter;
 import java.io.IOException;

@@ -1,4 +1,4 @@
-package org.example.behavioralDP.logger;
+package org.example.behavioralDP.chainofresposibility.logger;
 
 public abstract class LoggerHandler {
     protected LogLevel logLevel;
